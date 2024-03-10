@@ -135,7 +135,7 @@ export const Libraries = () => {
               <Typography className="font-bold text-xl text-black mb-6">
                 {section.category}
               </Typography>
-              <div className="flex gap-12 overflow-x-scroll md:overflow-x-auto pr-20">
+              <div className="flex gap-4 md:gap-12 overflow-x-scroll md:overflow-x-auto pr-20">
                 {section.items.map((library, idx) => (
                   <a key={idx} href={library.link}>
                     <div className="border hover:bg-green text-green hover:text-white border-light-gray rounded-xl flex flex-col gap-3 items-center py-3 px-2 lg:w-[264px] h-full w-[200px]">
