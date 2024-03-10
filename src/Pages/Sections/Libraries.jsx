@@ -117,7 +117,7 @@ export const Libraries = () => {
     <Fragment>
       <div className="h-full bg-[url('/images/libraries-bg.png')] bg-no-repeat bg-center bg-cover flex py-12 justify-center pl-6">
         <div className="flex flex-col gap-12 w-full lg:w-[1200px]">
-          <div className="flex gap-2 md:gap-12 flex-col md:flex-row">
+          <div className="flex gap-2 md:gap-12 flex-col md:flex-row pr-6">
             <Typography className="text-green hidden md:block font-bold text-xl">
               Browse
               <br />

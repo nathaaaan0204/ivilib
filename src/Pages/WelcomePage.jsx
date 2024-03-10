@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const WelcomePage = () => {
   return (
     <Fragment>
-      <div className="bg-[url('/images/libraries-bg.png')] bg-cover bg-no-repeat text-center flex flex-col gap-6 p-4 items-center justify-center h-[100vh]">
+      <div className="bg-[url('/images/libraries-bg.png')] bg-cover bg-no-repeat text-center flex flex-col gap-6 p-6 items-center justify-center h-[100vh]">
         <img src="/images/nvsulogo.png" alt="nvsulogo"/>
         <Typography className="text-green font-bold text-5xl">Ideal Virtual Library</Typography>
         <Typography className="font-medium max-w-[1200px]">
@@ -19,7 +19,7 @@ export const WelcomePage = () => {
           enrichment. Welcome to a realm where learning knows no bounds!
         </Typography>
         <Link to="/HomePage"><Button className="bg-green text-white font-bold">Browse Virtual Library</Button></Link>
-        <img src="/images/Books.jpg" alt="books" className='hidden md:block rounded-xl w-[400px] lg:w-auto' />
+        <img src="/images/Books.jpg" alt="books" className='hidden md:block rounded-xl' />
       </div>
     </Fragment>
   );

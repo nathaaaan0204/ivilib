@@ -7,7 +7,7 @@ const SearchBar = ({ onChange, onSearch }) => {
         type="text"
         placeholder="Search..."
         onChange={(e) => onChange(e.target.value)}
-        className="lg:w-[545px] p-2 border border-light-gray rounded-l-md shadow-sm focus:outline-none focus:border-green"
+        className="lg:w-[545px] w-full p-2 border border-light-gray rounded-l-md shadow-sm focus:outline-none focus:border-green"
       />
       <button
         onClick={onSearch}
