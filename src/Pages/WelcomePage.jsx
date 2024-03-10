@@ -19,7 +19,7 @@ export const WelcomePage = () => {
           enrichment. Welcome to a realm where learning knows no bounds!
         </Typography>
         <Link to="/HomePage"><Button className="bg-green text-white font-bold">Browse Virtual Library</Button></Link>
-        <img src="\images\books.jpg" alt="books" className='rounded-xl w-[400px] lg:w-auto' />
+        <img src="/images/books.jpg" alt="books" className='rounded-xl w-[400px] lg:w-auto' />
       </div>
     </Fragment>
   );
