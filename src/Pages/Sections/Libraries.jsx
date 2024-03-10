@@ -71,20 +71,17 @@ export const Libraries = () => {
         {
           name: "The Central Dogma",
           link: "https://www.filscihub.com/community/blogpost-bio-module-central-dogma?fbclid=IwAR2i0zNuNFbxvYgfm2fyoobxDs2OpR0FPnZpNgRJBCkx7oM-t32OviXpecU",
-          image:
-            "/images/The Central Dogma.png",
+          image: "/images/The Central Dogma.png",
         },
         {
           name: "Mutation",
           link: "https://www.filscihub.com/community/blogpost-bio-module-mutation-abnormalities?fbclid=IwAR3JCk7xUkNR7G1l6CRM3q-gyYmOxy4rZUrSjPu8du0Hfpre1uPGBXSBPPY",
-          image:
-            "/images/Mutation-Ebook.png",
+          image: "/images/Mutation-Ebook.png",
         },
         {
           name: "Heredity",
           link: "https://balliya.kvs.ac.in/sites/default/files/HEREDITY.pdf",
-          image:
-            "/images/Heredity-Ebook.png",
+          image: "/images/Heredity-Ebook.png",
         },
       ],
     },
@@ -94,8 +91,7 @@ export const Libraries = () => {
         {
           name: "Heredity and Genetics Matching Worksheets",
           link: "https://wordmint.com/public_puzzles/1897011?fbclid=IwAR3_vQoxq6JMYHnKWW4Rj6jaZbS1E7kQeg1W8_2gSvFlcOQ8CE_b8KlHDks",
-          image:
-            "/images/Genetic Variation Genetics.png",
+          image: "/images/Genetic Variation Genetics.png",
         },
         {
           name: "Genetic Variation Genetics",
@@ -104,7 +100,7 @@ export const Libraries = () => {
             "/images/links-images/Heredity, inheritance, and variation Chapter 2.png",
         },
       ],
-    }
+    },
   ];
 
   // Filter libraries based on search term
@@ -121,11 +117,14 @@ export const Libraries = () => {
     <Fragment>
       <div className="h-full bg-[url('/images/libraries-bg.png')] bg-no-repeat bg-center bg-cover flex py-12 justify-center pl-6">
         <div className="flex flex-col gap-12 w-full lg:w-[1200px]">
-          <div className="flex gap-12">
-            <Typography className="font-bold text-xl">
-              Virtual
+          <div className="flex gap-2 md:gap-12 flex-col md:flex-row">
+            <Typography className="text-green hidden md:block font-bold text-xl">
+              Browse
               <br />
               Library
+            </Typography>
+            <Typography className="md:hidden text-green font-bold text-xl">
+              Browse Library
             </Typography>
             <SearchBar onChange={setSearchTerm} />
           </div>
